@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/serialkillerbackground"
+    android:padding="16dp"
+    android:visibility="visible"
+    tools:context="com.example.chrisnosowsky.serialkillerquiz.serialkiller.example.chrisnosowsky.serialkillerquiz.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_chris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:textColor="#FFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-197dp"
+        android:freezesText="true"
+        android:text="Programming + Design: Chris Nosowsky"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:textColor="#FFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Highscore: 0"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/text_view_mariah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-228dp"
+        android:freezesText="true"
+        android:text="Quiz Questions: Mariah Adams"
+        android:textColor="#FFFF"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Start Quiz">
+
+    </Button>
+
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start_quiz"
+        android:backgroundTint="#ffff"
+        android:layout_alignStart="@+id/button_start_quiz"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="395dp"
+        android:layout_height="194dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="1.4"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/serialkillertitle"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
