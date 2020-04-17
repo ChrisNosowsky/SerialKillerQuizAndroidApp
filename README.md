@@ -10,7 +10,7 @@ Over the summer of 2020, I have decided to create a fun project with my girlfrie
 - Difficulty levels (easy, medium, hard)
 - Timed for each question
 - Keeps track of high score
-- Over 500+ downloads on Android
+- Over 1000+ downloads on Android
 
 ## Future of App
 The future of the app will be to eventually add a leaderboard, more questions, and hopefully more things to interact with. As it is already a simple concept, there really isn't much more besides that. The sole purpose was to get some experience on the mobile development side. I will eventually add a boilerplate or use a plugin to migrate it to iOS.
